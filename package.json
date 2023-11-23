@@ -4,6 +4,9 @@
   "description": "",
   "type": "module",
   "main": "server.js",
+    "workspaces": [
+    "frontend"
+  ],
   "scripts": {
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
